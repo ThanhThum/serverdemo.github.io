@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+html, body{
+	font-family: 'Roboto Mono', monospace !important;
+	
+}
+.navbar  {
+	background-color: #536DFF !important ;
+}
+
+.navbar li a{
+	color:  white !important ;
+}
+.navbar li a:hover {
+	color:  black !important;
+}
+.carousel-indicators li {
+     text-indent: 0px;
+     text-align: center;
+     color: red;
+     margin: 0 2px;
+     width: 30px;
+     height: 30px;
+     border: none;
+     border-radius: 100%;
+     line-height: 30px;
+     background-color: #999;
+     transition: all 0.25s ease;
+
+}
+.carousel img{
+	width: 100%
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+}
+.carousel-caption h1 {
+	font-size: 400%;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 15px #000;
+}
+.carousel-caption h3 {
+	font-size: 200%;	
+	text-shadow: 2px 2px 10px #000;
+}
+
+.btn-info{
+	background-color: #FFDDE4;
+	border: 1px solid white;
+}
+
+
+.btn-outline-link {
+	background-color: #FFDAAE;
+	border: 1px solid white;
+}
+.jumbotron {
+	padding: 1rem;
+	border-radius: 0;
+
+}
+.welcome hr {
+	border-top: 2px solid rgba(62,44,100, 0.6);
+	width: 95%;	
+	margin-bottom: 2rem;
+}
+.fa-microchip {
+	color: #A6A26F;
+}
+.fa-tint {
+	color: #2E3FFF;
+}
+.fa-css3 {
+	color: #D76537;
+}
+.fa-microchip, .fa-tint, .fa-css3 {
+	font-size: 4em;
+	margin: 1rem;
+}
+
+.social a {
+	font-size: 4em;/*1em = 16px*/
+	padding: 4rem;/*1rem = 1 "font-size" */
+}
+.fa-facebook {
+	color: #3B5998;
+}
+
+.fa-google-plus-g {
+	color: #3AFFA4;
+}
+.fa-instagram {
+	color: #FD7A38;
+}
+.fa-youtube {
+	color: #BB0000;
+}
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+}
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+}
+.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+}
+/*Media Query*/
+@media (max-width: 992px){
+	.carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1{
+		font-size: 250%;
+	}
+	.carousel-caption h3{		
+		font-size: 160%;		
+	}
+	.carousel-caption .btn{		
+		font-size: 120%;		
+	}
+}
+@media (max-width: 768px){	
+	.carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1{
+		font-size: 220%;
+	}
+	.carousel-caption h3{		
+		font-size: 140%;
+		padding-bottom: 0.2rem;
+	}
+	.carousel-caption .btn{		
+		font-size: 95%;
+		padding: 8px 14px;
+	}
+}
+@media (max-width: 576px){
+	.carousel-caption {
+		top: 10%;
+	}
+	.carousel-caption h1{
+		font-size: 150%;
+	}
+	.carousel-caption h3{		
+		font-size: 110%;		
+	}
+	.carousel-caption .btn {		
+		font-size: 90%;
+		padding: 4px 8px;
+	}	
+}
